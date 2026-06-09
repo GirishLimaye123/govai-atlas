@@ -430,8 +430,12 @@ function V2Nav({ current }: { current: AppRoute["page"] }) {
   return (
     <header className="v2-nav">
       <a className="v2-brand" href={v2HomeHash()}>
-        <ShieldCheck size={19} aria-hidden="true" />
-        <span>
+        <span className="govai-logo-mark" aria-hidden="true">
+          <span>Gov</span>
+          <strong>AI</strong>
+          <em>.fm</em>
+        </span>
+        <span className="v2-brand-copy">
           <strong>Canada AI Strategy Atlas</strong>
           <small>A GovAI.fm civic project</small>
         </span>

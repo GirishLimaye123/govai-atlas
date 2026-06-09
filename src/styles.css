@@ -1369,21 +1369,44 @@ button {
   text-decoration: none;
 }
 
-.v2-brand svg {
-  color: #b43d2f;
-}
-
-.v2-brand span {
+.v2-brand-copy {
   display: grid;
   gap: 1px;
 }
 
-.v2-brand strong,
-.v2-brand small {
+.govai-logo-mark {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  min-width: 66px;
+  border: 1px solid #c9d7cf;
+  border-radius: 8px;
+  padding: 6px 8px;
+  color: #10201c;
+  background: #ffffff;
+  box-shadow: inset 0 -2px 0 rgba(15, 122, 95, 0.12);
+  font-size: 0.76rem;
+  font-weight: 820;
+  line-height: 1;
+}
+
+.govai-logo-mark strong {
+  color: #0f7a5f;
+  font-size: 0.84rem;
+}
+
+.govai-logo-mark em {
+  color: #66736d;
+  font-size: 0.72rem;
+  font-style: normal;
+}
+
+.v2-brand-copy > strong,
+.v2-brand-copy > small {
   line-height: 1.15;
 }
 
-.v2-brand small {
+.v2-brand-copy > small {
   color: #61706a;
   font-size: 0.76rem;
 }
