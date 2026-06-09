@@ -556,8 +556,8 @@ function V2HomePage() {
           <p className="v2-kicker">Start with a human question</p>
           <h2>Six ways into the same strategy.</h2>
           <p>
-            The official strategy has pillars. Canadians have roles, worries, ambitions, and
-            practical decisions. Pick the door that matches the conversation you want to have.
+            The official strategy has pillars. Canadians have questions, worries, ambitions, and
+            practical decisions. Pick the starting point that matches what you want to understand first.
           </p>
         </div>
         <div className="v2-role-grid">
