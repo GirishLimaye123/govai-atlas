@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Canada AI Strategy Atlas</title>
+  <desc id="desc">Social preview card for a public explainer of Canada's AI for All strategy.</desc>
+  <rect width="1200" height="630" fill="#eef3f0"/>
+  <rect x="56" y="56" width="1088" height="518" rx="22" fill="#fbfcf7" stroke="#cbd8d1" stroke-width="3"/>
+  <rect x="92" y="92" width="172" height="48" rx="24" fill="#12211d"/>
+  <text x="120" y="124" fill="#fffdf6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">AI for All</text>
+  <text x="92" y="230" fill="#101917" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="850">Canada AI</text>
+  <text x="92" y="315" fill="#101917" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="850">Strategy Atlas</text>
+  <text x="96" y="382" fill="#40504b" font-family="Inter, Arial, sans-serif" font-size="28">Questions. Commitments. Debate. Evidence.</text>
+  <g transform="translate(92 438)">
+    <rect width="184" height="66" rx="10" fill="#dff0e8"/>
+    <text x="24" y="40" fill="#155f4e" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="850">60 actions</text>
+    <rect x="202" width="218" height="66" rx="10" fill="#fae6dd"/>
+    <text x="226" y="40" fill="#9f3e36" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="850">open issues</text>
+    <rect x="438" width="224" height="66" rx="10" fill="#e7edf1"/>
+    <text x="462" y="40" fill="#26312e" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="850">source linked</text>
+  </g>
+  <path d="M958 103l25 72 76 2-60 45 21 73-62-42-63 42 22-73-61-45 76-2 26-72z" fill="#b43d2f"/>
+  <path d="M887 387c74-26 139-16 194 31" fill="none" stroke="#155f4e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M872 456c89-34 169-25 240 28" fill="none" stroke="#5d7485" stroke-width="16" stroke-linecap="round"/>
+</svg>

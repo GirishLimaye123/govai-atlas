@@ -1,0 +1,404 @@
+[
+  {
+    "id": "mines-action-weapons-2026-06-05",
+    "title": "AI for All except weapons",
+    "sourceName": "Mines Action Canada",
+    "sourceType": "advocacy-post",
+    "platform": "Organization post",
+    "url": "https://www.minesactioncanada.org/aiforall",
+    "publishedDate": "2026-06-05",
+    "lastSeenDate": "2026-06-08",
+    "stance": "negative",
+    "summary": "Welcomes the domestic focus but argues the strategy would be stronger with guardrails on AI use in defence, security, and weapons.",
+    "debatePoint": "A public-interest AI strategy may need an explicit military and autonomous weapons boundary, even when the launch focuses on civilian uses.",
+    "authorityScore": 3.7,
+    "popularityScore": 2.9,
+    "recencyScore": 5,
+    "tags": [
+      "defence",
+      "weapons",
+      "security",
+      "guardrails"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "accountability",
+          "canadian-control"
+        ]
+      },
+      {
+        "personaId": "future-canada",
+        "themeIds": [
+          "who-benefits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geist-details-2026-06-04",
+    "title": "AI for All, details to follow",
+    "sourceName": "Michael Geist",
+    "sourceType": "own-post",
+    "platform": "Blog",
+    "url": "https://www.michaelgeist.ca/2026/06/ai-for-all-details-to-follow-government-releases-a-big-spending-ai-strategy-that-is-still-short-on-the-specifics-that-matter/",
+    "publishedDate": "2026-06-04",
+    "lastSeenDate": "2026-06-08",
+    "stance": "negative",
+    "summary": "Argues the strategy is ambitious and has useful choices, but defers too many hard policy questions around transparency, privacy, automated decision-making, and enforceable AI rules.",
+    "debatePoint": "Trust cannot come only from spending, privacy reform, and voluntary certification; Canada may need clearer transparency obligations.",
+    "authorityScore": 4.9,
+    "popularityScore": 4.1,
+    "recencyScore": 4.8,
+    "tags": [
+      "transparency",
+      "privacy",
+      "regulation",
+      "trust"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "whats-real",
+          "deepfakes",
+          "my-data",
+          "accountability"
+        ]
+      },
+      {
+        "personaId": "student",
+        "themeIds": [
+          "ethics-critical-thinking"
+        ]
+      },
+      {
+        "personaId": "workplace-adopter",
+        "themeIds": [
+          "accountable-workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "krug-skeptical-guide-2026-06-04",
+    "title": "Canada's AI for All strategy: skeptical guide",
+    "sourceName": "Kris Krug",
+    "sourceType": "own-post",
+    "platform": "Blog",
+    "url": "https://kriskrug.co/2026/06/04/canada-ai-for-all-strategy-skeptical-guide/",
+    "publishedDate": "2026-06-04",
+    "lastSeenDate": "2026-06-08",
+    "stance": "mixed",
+    "summary": "Treats the launch as a large economic, workforce, sovereignty, and trust package while tracking where the public should keep asking for receipts.",
+    "debatePoint": "The strategy is not only a launch promise; it is an ongoing accountability surface for labour, energy, procurement, literacy, and governance.",
+    "authorityScore": 3.5,
+    "popularityScore": 3.2,
+    "recencyScore": 4.8,
+    "tags": [
+      "receipts",
+      "labour",
+      "energy",
+      "procurement",
+      "governance"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "future-canada",
+        "themeIds": [
+          "big-promise",
+          "jobs-wages",
+          "public-services",
+          "who-benefits"
+        ]
+      },
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "environment",
+          "accountability"
+        ]
+      },
+      {
+        "personaId": "small-business",
+        "themeIds": [
+          "where-to-start",
+          "customer-trust"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "betakit-lacks-teeth-2026-06-05",
+    "title": "Canada's AI strategy promises to protect citizens. Critics say it still lacks teeth",
+    "sourceName": "BetaKit",
+    "sourceType": "news-analysis",
+    "platform": "News",
+    "url": "https://betakit.com/canadas-ai-strategy-promises-to-protect-citizens-critics-say-it-still-lacks-teeth/",
+    "publishedDate": "2026-06-05",
+    "lastSeenDate": "2026-06-08",
+    "stance": "negative",
+    "summary": "Collects criticism that the protection side of the strategy is still light on concrete child safety, online harms, privacy, and enforcement measures.",
+    "debatePoint": "The strategy promises protection, but critics want more specific legal duties and remedies.",
+    "authorityScore": 4.4,
+    "popularityScore": 4,
+    "recencyScore": 5,
+    "tags": [
+      "children",
+      "online harms",
+      "privacy",
+      "enforcement"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "deepfakes",
+          "my-kids",
+          "my-data",
+          "accountability"
+        ]
+      },
+      {
+        "personaId": "student",
+        "themeIds": [
+          "ethics-critical-thinking"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "linkedin-boger-smb-support-2026-06-05",
+    "title": "Canada's AI strategy: regulatory direction and SMB support",
+    "sourceName": "Dr Jennifer Boger",
+    "sourceType": "social-post",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/posts/jen-boger_refreshed-national-ai-strategy-to-be-released-activity-7465472184635908096-6CVl",
+    "publishedDate": "2026-06-05",
+    "lastSeenDate": "2026-06-08",
+    "stance": "mixed",
+    "summary": "A pre-launch LinkedIn discussion asks for clearer regulatory direction and faster, meaningful support for Canadian SMBs and responsible ecosystem-building.",
+    "debatePoint": "Small organizations need both adoption support and clarity on responsible use before the strategy becomes practical.",
+    "authorityScore": 3.6,
+    "popularityScore": 2.8,
+    "recencyScore": 5,
+    "tags": [
+      "SMBs",
+      "responsible AI",
+      "regulation",
+      "support"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "small-business",
+        "themeIds": [
+          "where-to-start",
+          "can-i-afford-it",
+          "customer-trust"
+        ]
+      },
+      {
+        "personaId": "workplace-adopter",
+        "themeIds": [
+          "training-upskilling",
+          "accountable-workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ap-foreign-dominance-2026-06-04",
+    "title": "Carney warns foreign AI platforms can be used against Canadians",
+    "sourceName": "Associated Press",
+    "sourceType": "news",
+    "platform": "News",
+    "url": "https://apnews.com/article/canada-carney-artificial-intelligence-d8dfba818b84ccf5947f941731829254",
+    "publishedDate": "2026-06-04",
+    "lastSeenDate": "2026-06-08",
+    "stance": "mixed",
+    "summary": "Captures the strategy's core sovereignty argument: dependence on foreign platforms creates data, security, economic, and values risks.",
+    "debatePoint": "Canada is betting that sovereign compute and trusted alliances can reduce dependence on hyperscalers without isolating the country.",
+    "authorityScore": 4.8,
+    "popularityScore": 4.6,
+    "recencyScore": 4.8,
+    "tags": [
+      "sovereignty",
+      "foreign platforms",
+      "compute",
+      "alliances"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "canadian-control",
+          "my-data"
+        ]
+      },
+      {
+        "personaId": "entrepreneur",
+        "themeIds": [
+          "compute-access",
+          "global-markets"
+        ]
+      },
+      {
+        "personaId": "future-canada",
+        "themeIds": [
+          "who-benefits",
+          "big-promise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cci-scale-canadian-firms-2026-06-04",
+    "title": "CCI statement on the federal government's AI strategy",
+    "sourceName": "Council of Canadian Innovators",
+    "sourceType": "industry-statement",
+    "platform": "Organization post",
+    "url": "https://www.canadianinnovators.org/content/cci-statement-on-the-federal-governments-ai-strategy",
+    "publishedDate": "2026-06-04",
+    "lastSeenDate": "2026-06-08",
+    "stance": "positive",
+    "summary": "Welcomes the strategy's focus on Canadian innovators while arguing implementation should be judged by whether Canadian firms scale globally and capture more value.",
+    "debatePoint": "The pro-strategy case is that Canadian prosperity depends on building firms, IP, and policy capacity at home.",
+    "authorityScore": 4.3,
+    "popularityScore": 3.6,
+    "recencyScore": 4.8,
+    "tags": [
+      "scaleups",
+      "IP",
+      "economic sovereignty",
+      "commercialization"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "entrepreneur",
+        "themeIds": [
+          "capital-growth",
+          "government-customer",
+          "ip-and-data",
+          "global-markets"
+        ]
+      },
+      {
+        "personaId": "small-business",
+        "themeIds": [
+          "sector-opportunity",
+          "can-i-afford-it"
+        ]
+      },
+      {
+        "personaId": "future-canada",
+        "themeIds": [
+          "who-benefits",
+          "real-economy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "global-missing-2026-06-04",
+    "title": "Five things missing from Canada's AI strategy",
+    "sourceName": "Global News",
+    "sourceType": "news-analysis",
+    "platform": "News",
+    "url": "https://globalnews.ca/news/11890433/ai-strategy-canada-whats-missing/",
+    "publishedDate": "2026-06-04",
+    "lastSeenDate": "2026-06-08",
+    "stance": "negative",
+    "summary": "Frames public questions around missing timelines, unclear job impacts, data centre implications, and how promises will be delivered.",
+    "debatePoint": "The launch creates targets, but readers still need timelines, delivery mechanics, labour impact estimates, and infrastructure tradeoffs.",
+    "authorityScore": 4.2,
+    "popularityScore": 4.2,
+    "recencyScore": 4.8,
+    "tags": [
+      "jobs",
+      "timelines",
+      "data centres",
+      "implementation"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "future-canada",
+        "themeIds": [
+          "big-promise",
+          "jobs-wages",
+          "real-economy",
+          "who-benefits"
+        ]
+      },
+      {
+        "personaId": "workplace-adopter",
+        "themeIds": [
+          "will-ai-replace-me",
+          "daily-work"
+        ]
+      },
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "environment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "new-west-implementation-2026-06-04",
+    "title": "Understanding Canada's National Artificial Intelligence Strategy",
+    "sourceName": "New West Public Affairs",
+    "sourceType": "analysis",
+    "platform": "Firm post",
+    "url": "https://www.newwestpublicaffairs.ca/news-insights/aiforall",
+    "publishedDate": "2026-06-04",
+    "lastSeenDate": "2026-06-08",
+    "stance": "mixed",
+    "summary": "Highlights implementation questions around trust, funding access, policy coherence, delivery partners, and the capital-intensive sovereign compute buildout.",
+    "debatePoint": "The strategy's success depends less on the launch document and more on coherent delivery across departments, partners, provinces, and budgets.",
+    "authorityScore": 3.8,
+    "popularityScore": 3.1,
+    "recencyScore": 4.8,
+    "tags": [
+      "implementation",
+      "coherence",
+      "provinces",
+      "compute"
+    ],
+    "status": "reviewed",
+    "matches": [
+      {
+        "personaId": "entrepreneur",
+        "themeIds": [
+          "compute-access",
+          "capital-growth",
+          "government-customer"
+        ]
+      },
+      {
+        "personaId": "future-canada",
+        "themeIds": [
+          "public-services",
+          "big-promise",
+          "real-economy"
+        ]
+      },
+      {
+        "personaId": "concerned-canadian",
+        "themeIds": [
+          "canadian-control",
+          "environment"
+        ]
+      }
+    ]
+  }
+]
