@@ -436,13 +436,12 @@ function V2Nav({ current }: { current: AppRoute["page"] }) {
           <small>A GovAI.fm civic project</small>
         </span>
       </a>
-      <nav aria-label="V2 navigation">
+      <nav aria-label="Primary navigation">
         {navItems.map((item) => (
           <a className={current === item.page ? "is-active" : ""} href={item.href} key={item.href}>
             {item.label}
           </a>
         ))}
-        <a href={v1HomeHash()}>V1</a>
       </nav>
     </header>
   );
@@ -1041,7 +1040,6 @@ function V2MethodologyPage() {
         <a href="https://www.govai.fm/" target="_blank" rel="noreferrer">
           Visit GovAI.fm
         </a>
-        <a href={v1HomeHash()}>Open the original V1 layout</a>
       </section>
     </main>
   );

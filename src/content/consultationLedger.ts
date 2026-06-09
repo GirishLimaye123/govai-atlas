@@ -1,3 +1,5 @@
+import { localAssetUrl } from "./assets";
+
 export type ConsultationSource = "expert-report" | "public-consultation";
 
 export type ConsultationMatch = {
@@ -35,7 +37,7 @@ export const consultationSources = {
 };
 
 export const localPublicSpreadsheetUrl =
-  "/assets/consultation/public/ai-strategy-raw-data-2025-1.xlsx";
+  localAssetUrl("/assets/consultation/public/ai-strategy-raw-data-2025-1.xlsx");
 
 const reportFocusFileSegments: Record<string, string> = {
   Adoption: "Adoption",
@@ -60,7 +62,9 @@ export function getConsultationDocumentUrl(input: ConsultationInput) {
 
   const focusSegment = reportFocusFileSegments[input.focusArea] ?? fileSlug(input.focusArea);
 
-  return `/assets/consultation/task-force/${fileSlug(input.contributor)}_${focusSegment}_EN.docx`;
+  return localAssetUrl(
+    `/assets/consultation/task-force/${fileSlug(input.contributor)}_${focusSegment}_EN.docx`
+  );
 }
 
 export function getConsultationDocumentLabel(input: ConsultationInput) {

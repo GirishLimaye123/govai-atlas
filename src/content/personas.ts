@@ -1,5 +1,6 @@
 import type { SourceEntry } from "./sourceLedger";
 import { completedPersonaThemes } from "./extraPersonas";
+import { localAssetUrl } from "./assets";
 import { getSources } from "./sourceLedger";
 
 export type Coverage = "Clear" | "Some" | "Quiet";
@@ -458,7 +459,7 @@ const personaSeed: Persona[] = [
     name: "Workplace AI Adopter",
     question: "How does my day-to-day work change?",
     accent: "#2d7188",
-    image: "/assets/personas/workplace-indigenous-adopter.jpg",
+    image: localAssetUrl("/assets/personas/workplace-indigenous-adopter.jpg"),
     imageAlt:
       "Portrait of an Indigenous Canadian workplace professional thinking in a bright office setting",
     summary: "Practical adoption, accountability, and team readiness.",
@@ -469,7 +470,7 @@ const personaSeed: Persona[] = [
     name: "AI Entrepreneur",
     question: "How do I scale my innovation?",
     accent: "#b54747",
-    image: "/assets/personas/ai-entrepreneur-sharp.jpg",
+    image: localAssetUrl("/assets/personas/ai-entrepreneur-sharp.jpg"),
     imageAlt:
       "Sharp portrait of an AI entrepreneur in a bright professional setting",
     summary: "Compute, capital, procurement, growth, and global markets.",
@@ -480,7 +481,7 @@ const personaSeed: Persona[] = [
     name: "Future Canadian",
     question: "Will AI make life better in Canada?",
     accent: "#6b6f1e",
-    image: "/assets/personas/future-canadian-kids-flag.jpg",
+    image: localAssetUrl("/assets/personas/future-canadian-kids-flag.jpg"),
     imageAlt:
       "Diverse Canadian children looking hopeful in front of a Canadian flag",
     summary: "Prosperity, jobs, health care, public services, and the Canada the next generation inherits.",
