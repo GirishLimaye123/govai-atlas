@@ -737,6 +737,9 @@ export function summarizeActionForces(actions: PolicyAction[]) {
   const parts = [
     counts.Money > 0 ? `${counts.Money} funded` : "",
     counts.Law > 0 ? `${counts.Law} legal` : "",
+    counts.Promise > 0 && counts.Money === 0 && counts.Law === 0
+      ? `${counts.Promise} promised`
+      : "",
     counts["Still open"] > 0 ? `${counts["Still open"]} open` : ""
   ].filter(Boolean);
 

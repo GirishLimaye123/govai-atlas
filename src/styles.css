@@ -1449,7 +1449,8 @@ button {
 .v2-action-stats,
 .v2-action-index,
 .v2-debate-index,
-.v2-method-grid {
+.v2-method-grid,
+.commitment-force-guide {
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
@@ -1473,7 +1474,8 @@ button {
 .v2-debate-row,
 .v2-topic-panel,
 .v2-persona-sidebar,
-.v2-method-grid article {
+.v2-method-grid article,
+.commitment-force-guide {
   border: 1px solid #cbd8d1;
   border-radius: 8px;
   background: #fbfcf7;
@@ -1831,9 +1833,68 @@ button {
 
 .v2-action-stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
   margin-top: 18px;
+}
+
+.commitment-force-guide {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+  gap: 18px;
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.commitment-force-guide h2,
+.commitment-force-guide p,
+.commitment-force-guide dl,
+.commitment-force-guide dd {
+  margin: 0;
+}
+
+.commitment-force-guide h2 {
+  margin-bottom: 8px;
+  color: #17201d;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.08;
+}
+
+.commitment-force-guide p,
+.commitment-force-guide dd {
+  color: #45534e;
+  line-height: 1.48;
+}
+
+.commitment-force-guide dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.commitment-force-guide dl div {
+  border: 1px solid #d5dfd8;
+  border-radius: 8px;
+  padding: 12px;
+  background: #ffffff;
+}
+
+.commitment-force-guide dt {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 8px;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 0.78rem;
+  font-weight: 880;
+}
+
+.commitment-force-guide dd {
+  font-size: 0.9rem;
+}
+
+.commitment-force-guide-compact {
+  box-shadow: none;
 }
 
 .v2-action-stats span {
@@ -2222,7 +2283,9 @@ button {
   .v2-persona-layout,
   .v2-answer-card,
   .v2-signal-grid,
-  .v2-method-grid {
+  .v2-method-grid,
+  .commitment-force-guide,
+  .commitment-force-guide dl {
     grid-template-columns: 1fr;
   }
 

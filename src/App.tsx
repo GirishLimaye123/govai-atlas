@@ -201,6 +201,25 @@ const normalizeText = (value: string) => value.toLowerCase().replace(/\s+/g, " "
 
 const forceLabels = ["Money", "Law", "Promise", "Still open"] as const;
 
+const commitmentForceDefinitions = [
+  {
+    label: "Law",
+    detail: "A legal or regulatory move, such as legislation, statutory review, enforceable rules, or formal standards work."
+  },
+  {
+    label: "Money",
+    detail: "A named funding envelope, program investment, procurement commitment, or financial instrument."
+  },
+  {
+    label: "Promise",
+    detail: "An official commitment or direction in the strategy. It may still need law, money, timelines, or delivery rules."
+  },
+  {
+    label: "Still open",
+    detail: "A delivery question remains, such as who owns it, when it happens, how it is enforced, or how success is measured."
+  }
+] as const;
+
 const debateStanceLabels: Record<DebateStance, string> = {
   positive: "Positive",
   negative: "Critical",
@@ -344,6 +363,35 @@ function SignalBadge({
       <span>{label}</span>
       <strong>{value}</strong>
     </span>
+  );
+}
+
+function CommitmentForceGuide({ compact = false }: { compact?: boolean }) {
+  return (
+    <section
+      className={`commitment-force-guide ${compact ? "commitment-force-guide-compact" : ""}`}
+      aria-label="Commitment force definitions"
+    >
+      <div>
+        <p className="v2-kicker">Policy vs promise</p>
+        <h2>What gives a commitment force?</h2>
+        <p>
+          Policy is the overall direction. These tags explain whether each promise appears to be
+          backed by legal tools, money, delivery detail, or unresolved implementation questions.
+          Tags can stack on the same action.
+        </p>
+      </div>
+      <dl>
+        {commitmentForceDefinitions.map((entry) => (
+          <div key={entry.label}>
+            <dt className={`action-force-${entry.label.toLowerCase().replace(/\s/g, "-")}`}>
+              {entry.label}
+            </dt>
+            <dd>{entry.detail}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   );
 }
 
@@ -537,12 +585,12 @@ function V2HomePage() {
         <div className="v2-layer-card">
           <BookOpen size={20} aria-hidden="true" />
           <strong>Evidence</strong>
-          <p>Official strategy text, consultations, expert reports, public input, and global comparators sit underneath each answer.</p>
+          <p>Official strategy text, consultations, expert reports, public input, and country comparators sit underneath each answer.</p>
         </div>
         <div className="v2-layer-card">
           <ListChecks size={20} aria-hidden="true" />
           <strong>Accountability</strong>
-          <p>The 60 verbatim key actions are grouped by funding, law, promises, and open delivery work.</p>
+          <p>The 60 verbatim key actions are tagged by commitment force: law, money, promise, and still-open delivery work.</p>
         </div>
         <div className="v2-layer-card">
           <MessageCircle size={20} aria-hidden="true" />
@@ -603,7 +651,7 @@ function V2ActionTrackerPage() {
           <h1>All 60 official key actions, searchable and mapped back to Canadians’ questions.</h1>
           <p>
             Wording is verbatim from the strategy. The tracker adds interpretation only through
-            commitment type and topic mapping.
+            commitment force, country comparison, and topic mapping.
           </p>
         </div>
         <ShareButton
@@ -651,10 +699,16 @@ function V2ActionTrackerPage() {
           legal
         </span>
         <span>
+          <strong>{counts.Promise}</strong>
+          promised
+        </span>
+        <span>
           <strong>{counts["Still open"]}</strong>
           still open
         </span>
       </section>
+
+      <CommitmentForceGuide compact />
 
       <section className="v2-action-index" aria-label="Filtered action list">
         {filteredActions.map((entry) => {
@@ -970,8 +1024,8 @@ function V2MethodologyPage() {
         </article>
         <article>
           <Filter size={20} aria-hidden="true" />
-          <h2>Interpretive labels</h2>
-          <p>Labels such as funded, legal, promise, and still open are editorial mapping layers, not government status labels.</p>
+          <h2>Commitment force</h2>
+          <p>Policy is the overall direction. Promise, law, money, and still open describe how much force each commitment appears to have.</p>
         </article>
         <article>
           <CalendarClock size={20} aria-hidden="true" />
@@ -979,6 +1033,7 @@ function V2MethodologyPage() {
           <p>The atlas should be updated when new legislation, program guidance, funding details, debate sources, or delivery milestones appear.</p>
         </article>
       </section>
+      <CommitmentForceGuide />
       <section className="v2-trust-strip">
         <span>Independent explainer by GovAI.fm</span>
         <span>Not an official Government of Canada site</span>
@@ -1514,7 +1569,7 @@ function ThemePanel({ persona, theme }: { persona: Persona; theme: Theme }) {
 
       <div className="signals" aria-label="Strategy signal">
         <SignalBadge label="Coverage" value={theme.coverage} tone="coverage" />
-        <SignalBadge label="Action force" value={actionForce} tone="backing" />
+        <SignalBadge label="Commitment force" value={actionForce} tone="backing" />
         <SignalBadge label="Debate" value={theme.debate} tone="debate" />
       </div>
 
