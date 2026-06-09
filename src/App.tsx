@@ -179,13 +179,13 @@ const topicEntries: TopicEntry[] = personas.flatMap((persona) =>
 const updateCards = [
   {
     date: "June 8, 2026",
-    title: "V2 civic atlas added",
+    title: "Civic atlas launched",
     detail:
-      "New landing page, search, 60-action tracker, debate hub, update feed, and share tools."
+      "Plain-language entry points, search, a 60-action tracker, debate radar, and share tools are now in one place."
   },
   {
     date: "June 8, 2026",
-    title: "Key actions made verbatim",
+    title: "Key actions quoted verbatim",
     detail:
       "The action ledger now mirrors the official strategy wording and links directly to each action."
   },
@@ -505,7 +505,7 @@ function V2HomePage() {
       <V2Nav current="home" />
       <section className="v2-hero" aria-label="Canada AI Strategy Atlas">
         <div className="v2-hero-copy">
-          <p className="v2-kicker">V2 civic atlas · Last updated June 8, 2026</p>
+          <p className="v2-kicker">Independent civic atlas · Updated June 8, 2026</p>
           <h1>Understand Canada’s AI strategy by the question you actually have.</h1>
           <p>
             A public-facing map of AI for All: plain-language answers, verbatim commitments,
@@ -527,7 +527,7 @@ function V2HomePage() {
           </div>
         </div>
         <aside className="v2-hero-panel" aria-label="Atlas status">
-          <strong>Live accountability surface</strong>
+          <strong>Live accountability view</strong>
           <div>
             <span>{actionLedger.length}</span>
             <p>official key actions</p>
@@ -542,7 +542,7 @@ function V2HomePage() {
           </div>
           <small>
             {actionCounts.Money} funded · {actionCounts.Law} legal · {actionCounts["Still open"]} still open ·
-            debate heat avg. {debateScore}
+            debate score avg. {debateScore}
           </small>
         </aside>
       </section>
@@ -602,10 +602,10 @@ function V2HomePage() {
         </div>
       </section>
 
-      <section className="v2-update-section" aria-label="What changed">
+      <section className="v2-update-section" aria-label="Atlas updates">
         <div className="v2-section-heading">
-          <p className="v2-kicker">What changed?</p>
-          <h2>A strategy hub should have memory.</h2>
+          <p className="v2-kicker">Stay current</p>
+          <h2>A public strategy hub should keep receipts.</h2>
         </div>
         <div className="v2-update-grid">
           {updateCards.map((card) => (
