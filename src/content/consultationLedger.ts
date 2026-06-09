@@ -83,7 +83,7 @@ const allPersonaMatches: ConsultationMatch[] = [
 const trustMatches: ConsultationMatch[] = [
   {
     personaId: "concerned-canadian",
-    themeIds: ["whats-real", "deepfakes", "my-data", "my-kids", "accountability"]
+    themeIds: ["whats-real", "deepfakes", "my-data", "my-kids", "public-services", "accountability"]
   },
   { personaId: "small-business", themeIds: ["customer-trust"] },
   { personaId: "workplace-adopter", themeIds: ["public-servant", "accountable-workflows"] },
@@ -512,13 +512,15 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 7,
-        question: "What efforts are needed to attract, develop and retain top AI talent?",
+        question:
+          "What efforts are needed to attract, develop and retain top AI talent across research, industry and the public sector?",
         excerpt:
-          "We have this talent, but they go to America to save on costs and make business deals."
+          "We have this talent But they go to America to save on costs and make businsss deals to generate revenue."
       },
       {
         rowNumber: 28,
-        question: "What conditions are needed to ensure Canadian AI research remains globally competitive?",
+        question:
+          "What conditions are needed to ensure Canadian AI research remains globally competitive and ethically grounded?",
         excerpt:
           "Investment will be absolutely critical, not only from government but also from Canadians."
       }
@@ -538,15 +540,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 49,
-        question: "Where is the greatest potential for impactful AI adoption in Canada?",
+        question:
+          "Where is the greatest potential for impactful AI adoption in Canada? How can we ensure those sectors with the greatest opportunity can take advantage?",
         excerpt:
-          "Use AI to increase productivity in government: response times, implementation, and measurable deliverables."
+          "Definitely use to increase productivity in government ie reduced hiring, best practise implementation, improved response times, etc."
       },
       {
         rowNumber: 63,
-        question: "Where is the greatest potential for impactful AI adoption in Canada?",
+        question:
+          "Where is the greatest potential for impactful AI adoption in Canada? How can we ensure those sectors with the greatest opportunity can take advantage?",
         excerpt:
-          "Health care, construction, and agriculture stand out where productivity has lagged."
+          "health care, construction, and agriculture stand out."
       }
     ],
     matches: adoptionMatches
@@ -564,15 +568,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 28,
-        question: "What needs to be put in place so Canada can grow globally competitive AI companies?",
+        question:
+          "What needs to be put in place so Canada can grow globally competitive AI companies while retaining ownership, IP and economic sovereignty?",
         excerpt:
-          "Create investor tax credits and matching public dollars tied to keeping IP and headquarters in Canada."
+          "Create a federal investor tax credit so Canadians fund Canadian AI companies at scale, with matching public dollars tied to keeping IP and headquarters in Canada."
       },
       {
         rowNumber: 63,
-        question: "What needs to be put in place so Canada can grow globally competitive AI companies?",
+        question:
+          "What needs to be put in place so Canada can grow globally competitive AI companies while retaining ownership, IP and economic sovereignty?",
         excerpt:
-          "Create conditions where AI companies can scale here without immediately selling to foreign buyers."
+          "create conditions where AI companies can scale here without immediately selling out to foreign buyers."
       }
     ],
     matches: commercializationMatches
@@ -590,15 +596,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 28,
-        question: "How does Canada get to more and stronger AI industrial champions?",
+        question:
+          "How does Canada get to more and stronger AI industrial champions? What supports would make our champions own the podium?",
         excerpt:
-          "Back founders with real capital and long-term support so companies can scale here."
+          "Canada needs to back founders with real capital and long-term support so companies can scale here instead of selling early or leaving for the US."
       },
       {
         rowNumber: 63,
-        question: "How does Canada get to more and stronger AI industrial champions?",
+        question:
+          "How does Canada get to more and stronger AI industrial champions? What supports would make our champions own the podium?",
         excerpt:
-          "Deliberately grow a handful of AI companies into true industrial champions."
+          "deliberately grow a handful of AI companies into true industrial champions, not just a long tail of small startups."
       }
     ],
     matches: commercializationMatches
@@ -616,15 +624,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 28,
-        question: "How can Canada build public trust in AI technologies?",
+        question:
+          "How can Canada build public trust in AI technologies while addressing the risks they present? What are the most important things to do to build confidence?",
         excerpt:
           "Public trust in AI comes from transparency, accountability, and showing real benefits."
       },
       {
         rowNumber: 73,
-        question: "What frameworks, standards, regulations and norms are needed?",
+        question:
+          "What frameworks, standards, regulations and norms are needed to ensure AI products in Canada are trustworthy and responsibly deployed?",
         excerpt:
-          "Create a Canadian standard for high-risk systems and a public registry for public-service AI."
+          "Créer une norme canadienne inspirée de l’ISO 42001, obligatoire pour les systèmes à haut risque."
       }
     ],
     matches: trustMatches
@@ -642,15 +652,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 28,
-        question: "What skills are required for a modern, digital economy?",
+        question:
+          "What skills are required for a modern, digital economy, and how can Canada best support their development and deployment in the workforce?",
         excerpt:
-          "The key skills are AI literacy, practical digital skills, and the ability to adapt."
+          "The key skills for a modern digital economy are AI literacy, practical digital skills, and the ability to adapt as technology changes."
       },
       {
         rowNumber: 63,
-        question: "What skills are required for a modern, digital economy?",
+        question:
+          "What skills are required for a modern, digital economy, and how can Canada best support their development and deployment in the workforce?",
         excerpt:
-          "Canada needs broad digital fluency for everyone and deeper stacks for AI-focused careers."
+          "Canada needs two layers of skills: broad digital fluency for everyone"
       }
     ],
     matches: talentMatches
@@ -668,15 +680,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 28,
-        question: "Which infrastructure gaps are holding back AI innovation in Canada?",
+        question:
+          "Which infrastructure gaps (compute, data, connectivity) are holding back AI innovation in Canada, and what is stopping Canadian firms from building sovereign infrastructure to address them?",
         excerpt:
-          "The biggest gap is compute. Canadian companies need affordable, large-scale compute."
+          "The biggest gap is compute. Canadian companies cannot compete globally without access to affordable, large-scale compute"
       },
       {
         rowNumber: 63,
-        question: "Which infrastructure gaps are holding back AI innovation in Canada?",
+        question:
+          "Which infrastructure gaps (compute, data, connectivity) are holding back AI innovation in Canada, and what is stopping Canadian firms from building sovereign infrastructure to address them?",
         excerpt:
-          "Reliable compute, domain datasets, power, and long-haul connectivity are binding constraints."
+          "the binding constraints are reliable/affordable compute, high-quality domain datasets, power, and long-haul connectivity"
       }
     ],
     matches: infrastructureMatches
@@ -694,15 +708,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 28,
-        question: "How can Canada strengthen cybersecurity and safeguard critical infrastructure?",
+        question:
+          "How can Canada strengthen cybersecurity and safeguard critical infrastructure, data and models in the age of AI?",
         excerpt:
-          "Adopt zero-trust policies, encryption, privacy-preserving methods, access controls, and monitoring."
+          "Adopt zero-trust policies, protect data with encryption and privacy-preserving methods, and secure models with access controls and monitoring."
       },
       {
         rowNumber: 63,
-        question: "How can Canada strengthen cybersecurity and safeguard critical infrastructure?",
+        question:
+          "How can Canada strengthen cybersecurity and safeguard critical infrastructure, data and models in the age of AI?",
         excerpt:
-          "Set sector-specific baselines for AI security, data provenance, and signed deployments."
+          "sector-specific baselines for AI security—secure data pipelines, provenance/attestation for training data"
       }
     ],
     matches: securityMatches
@@ -720,15 +736,17 @@ export const publicIdeaLedger: ConsultationInput[] = [
     evidenceRows: [
       {
         rowNumber: 156,
-        question: "What needs to be put in place so Canada can grow globally competitive AI companies?",
+        question:
+          "What needs to be put in place so Canada can grow globally competitive AI companies while retaining ownership, IP and economic sovereignty?",
         excerpt:
-          "Update trademark and copyright laws; they were made for a previous time."
+          "look to update tradmark and copyright laws."
       },
       {
         rowNumber: 357,
-        question: "What are the key barriers to AI adoption?",
+        question:
+          "What are the key barriers to AI adoption, and how can government and industry work together to accelerate responsible uptake?",
         excerpt:
-          "The lack of legal or regulatory frameworks around copyright and AI is a barrier."
+          "The lack of real legal or regulatory frameworks around things like copyright and AI are also a barrier."
       }
     ],
     matches: [

@@ -373,11 +373,11 @@ function CommitmentForceGuide({ compact = false }: { compact?: boolean }) {
       aria-label="Commitment force definitions"
     >
       <div>
-        <p className="v2-kicker">Policy vs promise</p>
+        <p className="v2-kicker">Strategy vs promise</p>
         <h2>What gives a commitment force?</h2>
         <p>
-          Policy is the overall direction. These tags explain whether each promise appears to be
-          backed by legal tools, money, delivery detail, or unresolved implementation questions.
+          The strategy is the overall direction. These tags explain whether each promise appears to
+          be backed by legal tools, money, delivery detail, or unresolved implementation questions.
           Tags can stack on the same action.
         </p>
       </div>
@@ -1028,7 +1028,7 @@ function V2MethodologyPage() {
         <article>
           <Filter size={20} aria-hidden="true" />
           <h2>Commitment force</h2>
-          <p>Policy is the overall direction. Promise, law, money, and still open describe how much force each commitment appears to have.</p>
+          <p>The strategy is the overall direction. Promise, law, money, and still open describe how much force each commitment appears to have.</p>
         </article>
         <article>
           <CalendarClock size={20} aria-hidden="true" />

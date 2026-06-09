@@ -307,7 +307,7 @@ export const sourceLedger: SourceEntry[] = [
     id: "us-omb-ai-governance",
     title: "OMB government-wide AI governance policy",
     type: "comparator",
-    url: "https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-issues-government-wide-policy-to-advance-governance-innovation-and-risk-management-in-federal-agencies-use-of-artificial-intelligence/",
+    url: "https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf",
     section: "Federal agency AI use",
     evidence:
       "The U.S. federal approach sets agency-level requirements for governance, innovation, and risk management in government AI use."
@@ -343,10 +343,10 @@ export const sourceLedger: SourceEntry[] = [
     id: "south-korea-ai-basic-act",
     title: "South Korea AI Basic Act",
     type: "comparator",
-    url: "https://www.korea.net/NewsFocus/policies/view?articleId=286183&pageIndex=1",
+    url: "https://www.trade.gov/market-intelligence/south-korea-ai-basic-act",
     section: "AI law and industrial development",
     evidence:
-      "South Korea's AI Basic Act combines AI industry development with trust, safety, and governance obligations."
+      "South Korea's AI Basic Act combines AI industrial promotion with baseline obligations for trust, safety, transparency, and user protection."
   },
   {
     id: "india-ai-mission",
